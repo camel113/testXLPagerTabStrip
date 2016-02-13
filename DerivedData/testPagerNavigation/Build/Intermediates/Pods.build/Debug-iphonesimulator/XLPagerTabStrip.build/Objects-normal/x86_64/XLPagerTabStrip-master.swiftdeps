@@ -1,0 +1,17 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "913f5f0652cba3ee7cd7cdd10c938cdb"
+build_time: [508688880, 379754000]
+inputs:
+  "/Users/adrienbigler/Documents/sysin/code/iOS/testPagerNavigation/Pods/XLPagerTabStrip/Sources/BarPagerTabStripViewController.swift": [508688828, 0]
+  "/Users/adrienbigler/Documents/sysin/code/iOS/testPagerNavigation/Pods/XLPagerTabStrip/Sources/PagerTabStripError.swift": [508688828, 0]
+  "/Users/adrienbigler/Documents/sysin/code/iOS/testPagerNavigation/Pods/XLPagerTabStrip/Sources/PagerTabStripBehaviour.swift": [508688828, 0]
+  "/Users/adrienbigler/Documents/sysin/code/iOS/testPagerNavigation/Pods/XLPagerTabStrip/Sources/IndicatorInfo.swift": [508688828, 0]
+  "/Users/adrienbigler/Documents/sysin/code/iOS/testPagerNavigation/Pods/XLPagerTabStrip/Sources/ButtonBarPagerTabStripViewController.swift": [508688828, 0]
+  "/Users/adrienbigler/Documents/sysin/code/iOS/testPagerNavigation/Pods/XLPagerTabStrip/Sources/SegmentedPagerTabStripViewController.swift": [508688828, 0]
+  "/Users/adrienbigler/Documents/sysin/code/iOS/testPagerNavigation/Pods/XLPagerTabStrip/Sources/BarView.swift": [508688828, 0]
+  "/Users/adrienbigler/Documents/sysin/code/iOS/testPagerNavigation/Pods/XLPagerTabStrip/Sources/PagerTabStripViewController.swift": [508688828, 0]
+  "/Users/adrienbigler/Documents/sysin/code/iOS/testPagerNavigation/Pods/XLPagerTabStrip/Sources/BaseButtonBarPagerTabStripViewController.swift": [508688828, 0]
+  "/Users/adrienbigler/Documents/sysin/code/iOS/testPagerNavigation/Pods/XLPagerTabStrip/Sources/ButtonBarView.swift": [508688828, 0]
+  "/Users/adrienbigler/Documents/sysin/code/iOS/testPagerNavigation/Pods/XLPagerTabStrip/Sources/TwitterPagerTabStripViewController.swift": [508688828, 0]
+  "/Users/adrienbigler/Documents/sysin/code/iOS/testPagerNavigation/Pods/XLPagerTabStrip/Sources/SwipeDirection.swift": [508688828, 0]
+  "/Users/adrienbigler/Documents/sysin/code/iOS/testPagerNavigation/Pods/XLPagerTabStrip/Sources/ButtonBarViewCell.swift": [508688828, 0]

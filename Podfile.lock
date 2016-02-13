@@ -1,0 +1,10 @@
+PODS:
+  - XLPagerTabStrip (4.0.0)
+
+DEPENDENCIES:
+  - XLPagerTabStrip (~> 4.0)
+
+SPEC CHECKSUMS:
+  XLPagerTabStrip: 52944e7ff6aae4e4e2e3d073467bd29f5f5f4123
+
+COCOAPODS: 0.38.2

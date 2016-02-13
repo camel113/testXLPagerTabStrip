@@ -1,0 +1,256 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C19testPagerNavigation14ViewController"
+provides-member:
+- ["C19testPagerNavigation14ViewController", ""]
+provides-dynamic-lookup:
+- "viewControllersForPagerTabStrip"
+- "viewDidLoad"
+- "didReceiveMemoryWarning"
+depends-top-level:
+- "ViewController"
+- !private "SecontTableViewController"
+- "ButtonBarPagerTabStripViewController"
+- "UIViewController"
+- "PagerTabStripViewController"
+- !private "FirstViewController"
+depends-member:
+- !private ["PSs9AnyObject", "FirstViewController"]
+- !private ["PSs9AnyObject", "SecontTableViewController"]
+- ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "viewControllersForPagerTabStrip"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["C15XLPagerTabStrip36ButtonBarPagerTabStripViewController", "FirstViewController"]
+- ["C15XLPagerTabStrip36ButtonBarPagerTabStripViewController", "PagerTabStripViewController"]
+- !private ["C15XLPagerTabStrip36ButtonBarPagerTabStripViewController", "SecontTableViewController"]
+- ["C15XLPagerTabStrip36ButtonBarPagerTabStripViewController", "UIViewController"]
+- ["C15XLPagerTabStrip36ButtonBarPagerTabStripViewController", "didReceiveMemoryWarning"]
+- ["C15XLPagerTabStrip36ButtonBarPagerTabStripViewController", "init"]
+- ["C15XLPagerTabStrip36ButtonBarPagerTabStripViewController", "viewControllersForPagerTabStrip"]
+- ["C15XLPagerTabStrip36ButtonBarPagerTabStripViewController", "viewDidLoad"]
+- ["C15XLPagerTabStrip36ButtonBarPagerTabStripViewController", ""]
+- !private ["PSs11CVarArgType", "FirstViewController"]
+- !private ["PSs11CVarArgType", "SecontTableViewController"]
+- ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "viewControllersForPagerTabStrip"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "FirstViewController"]
+- !private ["PSs23CustomStringConvertible", "SecontTableViewController"]
+- ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "viewControllersForPagerTabStrip"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "FirstViewController"]
+- !private ["PSs9Equatable", "SecontTableViewController"]
+- ["PSs9Equatable", "didReceiveMemoryWarning"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "viewControllersForPagerTabStrip"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["C19testPagerNavigation19FirstViewController", "init"]
+- !private ["PSs8Hashable", "FirstViewController"]
+- !private ["PSs8Hashable", "SecontTableViewController"]
+- ["PSs8Hashable", "didReceiveMemoryWarning"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "viewControllersForPagerTabStrip"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- !private ["P15XLPagerTabStrip21IndicatorInfoProvider", "init"]
+- !private ["PSo8NSCoding", "FirstViewController"]
+- !private ["PSo8NSCoding", "SecontTableViewController"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "viewControllersForPagerTabStrip"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "FirstViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "SecontTableViewController"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "viewControllersForPagerTabStrip"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["CSo8NSObject", "FirstViewController"]
+- ["CSo8NSObject", "PagerTabStripViewController"]
+- !private ["CSo8NSObject", "SecontTableViewController"]
+- ["CSo8NSObject", "UIViewController"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "viewControllersForPagerTabStrip"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "FirstViewController"]
+- !private ["PSo16NSObjectProtocol", "SecontTableViewController"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "viewControllersForPagerTabStrip"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["P15XLPagerTabStrip23PagerTabStripDataSource", "FirstViewController"]
+- !private ["P15XLPagerTabStrip23PagerTabStripDataSource", "SecontTableViewController"]
+- ["P15XLPagerTabStrip23PagerTabStripDataSource", "didReceiveMemoryWarning"]
+- ["P15XLPagerTabStrip23PagerTabStripDataSource", "init"]
+- ["P15XLPagerTabStrip23PagerTabStripDataSource", "viewControllersForPagerTabStrip"]
+- ["P15XLPagerTabStrip23PagerTabStripDataSource", "viewDidLoad"]
+- ["P15XLPagerTabStrip23PagerTabStripDataSource", ""]
+- !private ["P15XLPagerTabStrip21PagerTabStripDelegate", "FirstViewController"]
+- !private ["P15XLPagerTabStrip21PagerTabStripDelegate", "SecontTableViewController"]
+- ["P15XLPagerTabStrip21PagerTabStripDelegate", "didReceiveMemoryWarning"]
+- ["P15XLPagerTabStrip21PagerTabStripDelegate", "init"]
+- ["P15XLPagerTabStrip21PagerTabStripDelegate", "viewControllersForPagerTabStrip"]
+- ["P15XLPagerTabStrip21PagerTabStripDelegate", "viewDidLoad"]
+- ["P15XLPagerTabStrip21PagerTabStripDelegate", ""]
+- !private ["P15XLPagerTabStrip34PagerTabStripIsProgressiveDelegate", "FirstViewController"]
+- !private ["P15XLPagerTabStrip34PagerTabStripIsProgressiveDelegate", "SecontTableViewController"]
+- ["P15XLPagerTabStrip34PagerTabStripIsProgressiveDelegate", "didReceiveMemoryWarning"]
+- ["P15XLPagerTabStrip34PagerTabStripIsProgressiveDelegate", "init"]
+- ["P15XLPagerTabStrip34PagerTabStripIsProgressiveDelegate", "viewControllersForPagerTabStrip"]
+- ["P15XLPagerTabStrip34PagerTabStripIsProgressiveDelegate", "viewDidLoad"]
+- ["P15XLPagerTabStrip34PagerTabStripIsProgressiveDelegate", ""]
+- !private ["C15XLPagerTabStrip27PagerTabStripViewController", "FirstViewController"]
+- ["C15XLPagerTabStrip27PagerTabStripViewController", "PagerTabStripViewController"]
+- !private ["C15XLPagerTabStrip27PagerTabStripViewController", "SecontTableViewController"]
+- ["C15XLPagerTabStrip27PagerTabStripViewController", "UIViewController"]
+- ["C15XLPagerTabStrip27PagerTabStripViewController", "didReceiveMemoryWarning"]
+- ["C15XLPagerTabStrip27PagerTabStripViewController", "init"]
+- ["C15XLPagerTabStrip27PagerTabStripViewController", "viewControllersForPagerTabStrip"]
+- ["C15XLPagerTabStrip27PagerTabStripViewController", "viewDidLoad"]
+- !private ["C19testPagerNavigation25SecontTableViewController", "init"]
+- !private ["PSo21UIAppearanceContainer", "FirstViewController"]
+- !private ["PSo21UIAppearanceContainer", "SecontTableViewController"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "viewControllersForPagerTabStrip"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo26UICollectionViewDataSource", "FirstViewController"]
+- !private ["PSo26UICollectionViewDataSource", "SecontTableViewController"]
+- ["PSo26UICollectionViewDataSource", "didReceiveMemoryWarning"]
+- ["PSo26UICollectionViewDataSource", "init"]
+- ["PSo26UICollectionViewDataSource", "viewControllersForPagerTabStrip"]
+- ["PSo26UICollectionViewDataSource", "viewDidLoad"]
+- ["PSo26UICollectionViewDataSource", ""]
+- !private ["PSo24UICollectionViewDelegate", "FirstViewController"]
+- !private ["PSo24UICollectionViewDelegate", "SecontTableViewController"]
+- ["PSo24UICollectionViewDelegate", "didReceiveMemoryWarning"]
+- ["PSo24UICollectionViewDelegate", "init"]
+- ["PSo24UICollectionViewDelegate", "viewControllersForPagerTabStrip"]
+- ["PSo24UICollectionViewDelegate", "viewDidLoad"]
+- ["PSo24UICollectionViewDelegate", ""]
+- !private ["PSo18UIContentContainer", "FirstViewController"]
+- !private ["PSo18UIContentContainer", "SecontTableViewController"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "viewControllersForPagerTabStrip"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo18UIFocusEnvironment", "FirstViewController"]
+- !private ["PSo18UIFocusEnvironment", "SecontTableViewController"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "viewControllersForPagerTabStrip"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo11UIResponder", "FirstViewController"]
+- ["CSo11UIResponder", "PagerTabStripViewController"]
+- !private ["CSo11UIResponder", "SecontTableViewController"]
+- ["CSo11UIResponder", "UIViewController"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "viewControllersForPagerTabStrip"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo20UIScrollViewDelegate", "FirstViewController"]
+- !private ["PSo20UIScrollViewDelegate", "SecontTableViewController"]
+- ["PSo20UIScrollViewDelegate", "didReceiveMemoryWarning"]
+- ["PSo20UIScrollViewDelegate", "init"]
+- ["PSo20UIScrollViewDelegate", "viewControllersForPagerTabStrip"]
+- ["PSo20UIScrollViewDelegate", "viewDidLoad"]
+- ["PSo20UIScrollViewDelegate", ""]
+- !private ["PSo16UIStateRestoring", "FirstViewController"]
+- !private ["PSo16UIStateRestoring", "SecontTableViewController"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "viewControllersForPagerTabStrip"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo21UITableViewController", "init"]
+- !private ["PSo21UITableViewDataSource", "init"]
+- !private ["PSo19UITableViewDelegate", "init"]
+- !private ["PSo18UITraitEnvironment", "FirstViewController"]
+- !private ["PSo18UITraitEnvironment", "SecontTableViewController"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "viewControllersForPagerTabStrip"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo16UIViewController", "FirstViewController"]
+- ["CSo16UIViewController", "PagerTabStripViewController"]
+- !private ["CSo16UIViewController", "SecontTableViewController"]
+- ["CSo16UIViewController", "UIViewController"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "viewControllersForPagerTabStrip"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- !private ["C19testPagerNavigation14ViewController", "FirstViewController"]
+- ["C19testPagerNavigation14ViewController", "PagerTabStripViewController"]
+- !private ["C19testPagerNavigation14ViewController", "SecontTableViewController"]
+- ["C19testPagerNavigation14ViewController", "UIViewController"]
+- ["C19testPagerNavigation14ViewController", "deinit"]
+- ["C19testPagerNavigation14ViewController", "didReceiveMemoryWarning"]
+- ["C19testPagerNavigation14ViewController", "init"]
+- ["C19testPagerNavigation14ViewController", "viewControllersForPagerTabStrip"]
+- ["C19testPagerNavigation14ViewController", "viewDidLoad"]
+depends-nominal:
+- "PSs9AnyObject"
+- "C15XLPagerTabStrip36ButtonBarPagerTabStripViewController"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "C19testPagerNavigation19FirstViewController"
+- "PSs8Hashable"
+- !private "P15XLPagerTabStrip21IndicatorInfoProvider"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "P15XLPagerTabStrip23PagerTabStripDataSource"
+- "P15XLPagerTabStrip21PagerTabStripDelegate"
+- "P15XLPagerTabStrip34PagerTabStripIsProgressiveDelegate"
+- "C15XLPagerTabStrip27PagerTabStripViewController"
+- !private "C19testPagerNavigation25SecontTableViewController"
+- "PSo21UIAppearanceContainer"
+- "PSo26UICollectionViewDataSource"
+- "PSo24UICollectionViewDelegate"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo20UIScrollViewDelegate"
+- "PSo16UIStateRestoring"
+- !private "CSo21UITableViewController"
+- !private "PSo21UITableViewDataSource"
+- !private "PSo19UITableViewDelegate"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- "C19testPagerNavigation14ViewController"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/adrienbigler/Documents/sysin/code/iOS/testPagerNavigation/DerivedData/testPagerNavigation/Build/Products/Debug-iphonesimulator/XLPagerTabStrip.framework/Modules/XLPagerTabStrip.swiftmodule/x86_64.swiftmodule"
+- "/Users/adrienbigler/Documents/sysin/code/iOS/testPagerNavigation/DerivedData/testPagerNavigation/Build/Products/Debug-iphonesimulator/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-Swift.h"
+- "/Users/adrienbigler/Documents/sysin/code/iOS/testPagerNavigation/DerivedData/testPagerNavigation/Build/Products/Debug-iphonesimulator/XLPagerTabStrip.framework/Headers/FXPageControl.h"
+- "/Users/adrienbigler/Documents/sysin/code/iOS/testPagerNavigation/DerivedData/testPagerNavigation/Build/Products/Debug-iphonesimulator/XLPagerTabStrip.framework/Headers/XLPagerTabStrip-umbrella.h"
+- "/Users/adrienbigler/Documents/sysin/code/iOS/testPagerNavigation/DerivedData/testPagerNavigation/Build/Products/Debug-iphonesimulator/XLPagerTabStrip.framework/Modules/module.modulemap"
+interface-hash: "ba23992f8730dab71841c6d7cccaa60e"

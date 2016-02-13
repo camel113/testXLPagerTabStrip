@@ -1,0 +1,9 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "7248a55d381c7642e027624f3a5ea20d"
+build_time: [508690432, 947393000]
+inputs:
+  "/Users/adrienbigler/Documents/sysin/code/iOS/testPagerNavigation/testPagerNavigation/FirstViewController.swift": [508690092, 0]
+  "/Users/adrienbigler/Documents/sysin/code/iOS/testPagerNavigation/testPagerNavigation/MyRandomTableViewCell.swift": [508690259, 0]
+  "/Users/adrienbigler/Documents/sysin/code/iOS/testPagerNavigation/testPagerNavigation/ViewController.swift": [508690431, 0]
+  "/Users/adrienbigler/Documents/sysin/code/iOS/testPagerNavigation/testPagerNavigation/SecontTableViewController.swift": [508690360, 0]
+  "/Users/adrienbigler/Documents/sysin/code/iOS/testPagerNavigation/testPagerNavigation/AppDelegate.swift": [508688592, 0]
