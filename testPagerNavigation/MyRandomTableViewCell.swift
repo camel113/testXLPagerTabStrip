@@ -10,6 +10,7 @@ import UIKit
 
 class MyRandomTableViewCell: UITableViewCell {
 
+    @IBOutlet var myLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

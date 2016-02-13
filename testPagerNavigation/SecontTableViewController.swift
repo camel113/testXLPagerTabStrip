@@ -42,9 +42,9 @@ class SecontTableViewController: UITableViewController, IndicatorInfoProvider {
 
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("MyRandomTableViewCell", forIndexPath: indexPath) as! MyRandomTableViewCell
 
-        // Configure the cell...
+        cell.myLabel.text = myArray[indexPath.row]
 
         return cell
     }

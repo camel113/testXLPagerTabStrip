@@ -119,9 +119,11 @@ SWIFT_CLASS("_TtC19testPagerNavigation19FirstViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UILabel;
 
 SWIFT_CLASS("_TtC19testPagerNavigation21MyRandomTableViewCell")
 @interface MyRandomTableViewCell : UITableViewCell
+@property (nonatomic, strong) IBOutlet UILabel * __null_unspecified myLabel;
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * __nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;

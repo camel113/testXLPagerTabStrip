@@ -7,22 +7,22 @@ provides-member:
 - ["C19testPagerNavigation11AppDelegate", ""]
 provides-dynamic-lookup:
 - "window"
-- "applicationWillTerminate"
-- "application"
-- "applicationDidEnterBackground"
-- "applicationWillEnterForeground"
-- "applicationWillResignActive"
 - "applicationDidBecomeActive"
+- "applicationWillResignActive"
+- "applicationDidEnterBackground"
+- "applicationWillTerminate"
+- "applicationWillEnterForeground"
+- "application"
 depends-top-level:
-- "Bool"
 - !private "BooleanLiteralType"
-- "UIWindow"
-- "AnyObject"
-- "UIApplication"
-- "AppDelegate"
-- "NSObject"
-- "UIResponder"
 - "UIApplicationDelegate"
+- "UIResponder"
+- "UIApplication"
+- "AnyObject"
+- "AppDelegate"
+- "UIWindow"
+- "NSObject"
+- "Bool"
 depends-member:
 - ["PSs9AnyObject", "application"]
 - ["PSs9AnyObject", "applicationDidBecomeActive"]

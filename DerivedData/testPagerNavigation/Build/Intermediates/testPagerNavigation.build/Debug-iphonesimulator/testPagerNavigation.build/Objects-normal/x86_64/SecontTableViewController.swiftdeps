@@ -13,17 +13,18 @@ provides-dynamic-lookup:
 - "tableView"
 - "tableView"
 depends-top-level:
-- "UITableView"
 - "PagerTabStripViewController"
-- "Array"
 - "StringLiteralType"
-- "NSIndexPath"
-- "UITableViewController"
 - "IndicatorInfoProvider"
+- "UITableView"
+- "UITableViewController"
+- "UITableViewCell"
 - "IndicatorInfo"
 - "Int"
-- "UITableViewCell"
+- !private "MyRandomTableViewCell"
 - "SecontTableViewController"
+- "NSIndexPath"
+- "Array"
 depends-member:
 - !private ["PSs9AnyObject", "IndicatorInfo"]
 - !private ["PSs9AnyObject", "dequeueReusableCellWithIdentifier"]
@@ -31,8 +32,11 @@ depends-member:
 - ["PSs9AnyObject", "indicatorInfoForPagerTabStrip"]
 - ["PSs9AnyObject", "init"]
 - ["PSs9AnyObject", "myArray"]
+- !private ["PSs9AnyObject", "myLabel"]
 - ["PSs9AnyObject", "numberOfSectionsInTableView"]
+- !private ["PSs9AnyObject", "row"]
 - ["PSs9AnyObject", "tableView"]
+- !private ["PSs9AnyObject", "text"]
 - ["PSs9AnyObject", "viewDidLoad"]
 - ["PSs9AnyObject", ""]
 - ["Sa", "Element"]
@@ -40,11 +44,14 @@ depends-member:
 - !private ["Sa", "Index"]
 - !private ["Sa", "SubSequence"]
 - !private ["Sa", "count"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "subscript"]
 - ["PSs23ArrayLiteralConvertible", "Element"]
 - !private ["PSs23ArrayLiteralConvertible", "Generator"]
 - !private ["PSs23ArrayLiteralConvertible", "Index"]
 - !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
 - !private ["PSs23ArrayLiteralConvertible", "count"]
+- !private ["PSs23ArrayLiteralConvertible", "subscript"]
 - !private ["VSs10ArraySlice", "Generator"]
 - !private ["VSs10ArraySlice", "Index"]
 - !private ["PSs22BidirectionalIndexType", "Distance"]
@@ -59,15 +66,20 @@ depends-member:
 - ["PSs11CVarArgType", "indicatorInfoForPagerTabStrip"]
 - ["PSs11CVarArgType", "init"]
 - ["PSs11CVarArgType", "myArray"]
+- !private ["PSs11CVarArgType", "myLabel"]
 - ["PSs11CVarArgType", "numberOfSectionsInTableView"]
+- !private ["PSs11CVarArgType", "row"]
 - ["PSs11CVarArgType", "tableView"]
+- !private ["PSs11CVarArgType", "text"]
 - ["PSs11CVarArgType", "viewDidLoad"]
 - ["PSs11CVarArgType", ""]
 - ["PSs14CollectionType", "Element"]
 - !private ["PSs14CollectionType", "Generator"]
 - !private ["PSs14CollectionType", "Index"]
 - !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "_Element"]
 - !private ["PSs14CollectionType", "count"]
+- !private ["PSs14CollectionType", "subscript"]
 - !private ["PSs10Comparable", "Distance"]
 - !private ["PSs10Comparable", "IntegerLiteralType"]
 - ["PSs28CustomDebugStringConvertible", "Element"]
@@ -75,6 +87,7 @@ depends-member:
 - !private ["PSs28CustomDebugStringConvertible", "Index"]
 - !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
 - !private ["PSs28CustomDebugStringConvertible", "count"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
 - !private ["PSs23CustomStringConvertible", "Distance"]
 - ["PSs23CustomStringConvertible", "Element"]
 - !private ["PSs23CustomStringConvertible", "Generator"]
@@ -88,8 +101,12 @@ depends-member:
 - ["PSs23CustomStringConvertible", "indicatorInfoForPagerTabStrip"]
 - ["PSs23CustomStringConvertible", "init"]
 - ["PSs23CustomStringConvertible", "myArray"]
+- !private ["PSs23CustomStringConvertible", "myLabel"]
 - ["PSs23CustomStringConvertible", "numberOfSectionsInTableView"]
+- !private ["PSs23CustomStringConvertible", "row"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
 - ["PSs23CustomStringConvertible", "tableView"]
+- !private ["PSs23CustomStringConvertible", "text"]
 - ["PSs23CustomStringConvertible", "viewDidLoad"]
 - ["PSs23CustomStringConvertible", ""]
 - !private ["PSs9Equatable", "Distance"]
@@ -100,13 +117,17 @@ depends-member:
 - ["PSs9Equatable", "indicatorInfoForPagerTabStrip"]
 - ["PSs9Equatable", "init"]
 - ["PSs9Equatable", "myArray"]
+- !private ["PSs9Equatable", "myLabel"]
 - ["PSs9Equatable", "numberOfSectionsInTableView"]
+- !private ["PSs9Equatable", "row"]
 - ["PSs9Equatable", "tableView"]
+- !private ["PSs9Equatable", "text"]
 - ["PSs9Equatable", "viewDidLoad"]
 - ["PSs9Equatable", ""]
 - !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
 - !private ["PSs16ForwardIndexType", "Distance"]
 - !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs13GeneratorType", "Element"]
 - !private ["PSs8Hashable", "Distance"]
 - !private ["PSs8Hashable", "IndicatorInfo"]
 - !private ["PSs8Hashable", "IntegerLiteralType"]
@@ -115,15 +136,21 @@ depends-member:
 - ["PSs8Hashable", "indicatorInfoForPagerTabStrip"]
 - ["PSs8Hashable", "init"]
 - ["PSs8Hashable", "myArray"]
+- !private ["PSs8Hashable", "myLabel"]
 - ["PSs8Hashable", "numberOfSectionsInTableView"]
+- !private ["PSs8Hashable", "row"]
 - ["PSs8Hashable", "tableView"]
+- !private ["PSs8Hashable", "text"]
 - ["PSs8Hashable", "viewDidLoad"]
 - ["PSs8Hashable", ""]
 - ["PSs9Indexable", "Element"]
 - !private ["PSs9Indexable", "Generator"]
 - !private ["PSs9Indexable", "Index"]
 - !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "_Element"]
 - !private ["PSs9Indexable", "count"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["VSs17IndexingGenerator", "Element"]
 - !private ["V15XLPagerTabStrip13IndicatorInfo", "init"]
 - !private ["P15XLPagerTabStrip21IndicatorInfoProvider", "IndicatorInfo"]
 - ["P15XLPagerTabStrip21IndicatorInfoProvider", "indicatorInfoForPagerTabStrip"]
@@ -144,26 +171,34 @@ depends-member:
 - !private ["PSs21MutableCollectionType", "Index"]
 - !private ["PSs21MutableCollectionType", "SubSequence"]
 - !private ["PSs21MutableCollectionType", "count"]
+- !private ["PSs21MutableCollectionType", "subscript"]
 - ["PSs16MutableIndexable", "Element"]
 - !private ["PSs16MutableIndexable", "Generator"]
 - !private ["PSs16MutableIndexable", "Index"]
 - !private ["PSs16MutableIndexable", "SubSequence"]
 - !private ["PSs16MutableIndexable", "count"]
+- !private ["PSs16MutableIndexable", "subscript"]
 - ["PSs16MutableSliceable", "Element"]
 - !private ["PSs16MutableSliceable", "Generator"]
 - !private ["PSs16MutableSliceable", "Index"]
 - !private ["PSs16MutableSliceable", "SubSequence"]
 - !private ["PSs16MutableSliceable", "count"]
+- !private ["PSs16MutableSliceable", "subscript"]
+- !private ["C19testPagerNavigation21MyRandomTableViewCell", "myLabel"]
 - !private ["PSo8NSCoding", "IndicatorInfo"]
 - !private ["PSo8NSCoding", "dequeueReusableCellWithIdentifier"]
 - ["PSo8NSCoding", "didReceiveMemoryWarning"]
 - ["PSo8NSCoding", "indicatorInfoForPagerTabStrip"]
 - ["PSo8NSCoding", "init"]
 - ["PSo8NSCoding", "myArray"]
+- !private ["PSo8NSCoding", "myLabel"]
 - ["PSo8NSCoding", "numberOfSectionsInTableView"]
+- !private ["PSo8NSCoding", "row"]
 - ["PSo8NSCoding", "tableView"]
+- !private ["PSo8NSCoding", "text"]
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "row"]
 - !private ["PSo26NSExtensionRequestHandling", "IndicatorInfo"]
 - ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
 - ["PSo26NSExtensionRequestHandling", "indicatorInfoForPagerTabStrip"]
@@ -173,8 +208,10 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "tableView"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
+- !private ["CSo11NSIndexPath", "row"]
 - ["CSo8NSObject", "IndicatorInfo"]
 - ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "MyRandomTableViewCell"]
 - ["CSo8NSObject", "NSIndexPath"]
 - ["CSo8NSObject", "PagerTabStripViewController"]
 - ["CSo8NSObject", "UITableView"]
@@ -184,8 +221,11 @@ depends-member:
 - ["CSo8NSObject", "indicatorInfoForPagerTabStrip"]
 - ["CSo8NSObject", "init"]
 - ["CSo8NSObject", "myArray"]
+- !private ["CSo8NSObject", "myLabel"]
 - ["CSo8NSObject", "numberOfSectionsInTableView"]
+- !private ["CSo8NSObject", "row"]
 - ["CSo8NSObject", "tableView"]
+- !private ["CSo8NSObject", "text"]
 - ["CSo8NSObject", "viewDidLoad"]
 - !private ["PSo16NSObjectProtocol", "IndicatorInfo"]
 - !private ["PSo16NSObjectProtocol", "dequeueReusableCellWithIdentifier"]
@@ -193,10 +233,14 @@ depends-member:
 - ["PSo16NSObjectProtocol", "indicatorInfoForPagerTabStrip"]
 - ["PSo16NSObjectProtocol", "init"]
 - ["PSo16NSObjectProtocol", "myArray"]
+- !private ["PSo16NSObjectProtocol", "myLabel"]
 - ["PSo16NSObjectProtocol", "numberOfSectionsInTableView"]
+- !private ["PSo16NSObjectProtocol", "row"]
 - ["PSo16NSObjectProtocol", "tableView"]
+- !private ["PSo16NSObjectProtocol", "text"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "row"]
 - !private ["PSs21RandomAccessIndexType", "Distance"]
 - !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
 - ["PSs30RangeReplaceableCollectionType", "Element"]
@@ -204,8 +248,10 @@ depends-member:
 - !private ["PSs30RangeReplaceableCollectionType", "Index"]
 - !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
 - !private ["PSs30RangeReplaceableCollectionType", "count"]
+- !private ["PSs30RangeReplaceableCollectionType", "subscript"]
 - ["C19testPagerNavigation25SecontTableViewController", "IndicatorInfo"]
 - ["C19testPagerNavigation25SecontTableViewController", "Int"]
+- !private ["C19testPagerNavigation25SecontTableViewController", "MyRandomTableViewCell"]
 - ["C19testPagerNavigation25SecontTableViewController", "NSIndexPath"]
 - ["C19testPagerNavigation25SecontTableViewController", "PagerTabStripViewController"]
 - ["C19testPagerNavigation25SecontTableViewController", "UITableView"]
@@ -222,24 +268,36 @@ depends-member:
 - !private ["PSs12SequenceType", "Generator"]
 - !private ["PSs12SequenceType", "Index"]
 - !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "_Element"]
 - !private ["PSs12SequenceType", "count"]
+- !private ["PSs12SequenceType", "subscript"]
 - !private ["PSs17SignedIntegerType", "Distance"]
 - !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
 - !private ["PSs16SignedNumberType", "Distance"]
 - !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
 - !private ["PSs10Strideable", "Distance"]
 - !private ["PSs10Strideable", "IntegerLiteralType"]
 - !private ["PSs24StringLiteralConvertible", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo29UIAccessibilityIdentification", "myLabel"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
 - !private ["PSo12UIAppearance", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo12UIAppearance", "myLabel"]
+- !private ["PSo12UIAppearance", "text"]
 - !private ["PSo21UIAppearanceContainer", "IndicatorInfo"]
 - !private ["PSo21UIAppearanceContainer", "dequeueReusableCellWithIdentifier"]
 - ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
 - ["PSo21UIAppearanceContainer", "indicatorInfoForPagerTabStrip"]
 - ["PSo21UIAppearanceContainer", "init"]
 - ["PSo21UIAppearanceContainer", "myArray"]
+- !private ["PSo21UIAppearanceContainer", "myLabel"]
 - ["PSo21UIAppearanceContainer", "numberOfSectionsInTableView"]
 - ["PSo21UIAppearanceContainer", "tableView"]
+- !private ["PSo21UIAppearanceContainer", "text"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", ""]
 - !private ["PSo18UIContentContainer", "IndicatorInfo"]
@@ -252,19 +310,28 @@ depends-member:
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", ""]
 - !private ["PSo17UICoordinateSpace", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo17UICoordinateSpace", "myLabel"]
+- !private ["PSo17UICoordinateSpace", "text"]
 - !private ["PSo13UIDynamicItem", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo13UIDynamicItem", "myLabel"]
+- !private ["PSo13UIDynamicItem", "text"]
 - !private ["PSo18UIFocusEnvironment", "IndicatorInfo"]
 - !private ["PSo18UIFocusEnvironment", "dequeueReusableCellWithIdentifier"]
 - ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
 - ["PSo18UIFocusEnvironment", "indicatorInfoForPagerTabStrip"]
 - ["PSo18UIFocusEnvironment", "init"]
 - ["PSo18UIFocusEnvironment", "myArray"]
+- !private ["PSo18UIFocusEnvironment", "myLabel"]
 - ["PSo18UIFocusEnvironment", "numberOfSectionsInTableView"]
 - ["PSo18UIFocusEnvironment", "tableView"]
+- !private ["PSo18UIFocusEnvironment", "text"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo27UIGestureRecognizerDelegate", "myLabel"]
+- !private ["CSo7UILabel", "text"]
 - ["CSo11UIResponder", "IndicatorInfo"]
 - ["CSo11UIResponder", "Int"]
+- !private ["CSo11UIResponder", "MyRandomTableViewCell"]
 - ["CSo11UIResponder", "NSIndexPath"]
 - ["CSo11UIResponder", "PagerTabStripViewController"]
 - ["CSo11UIResponder", "UITableView"]
@@ -274,8 +341,10 @@ depends-member:
 - ["CSo11UIResponder", "indicatorInfoForPagerTabStrip"]
 - ["CSo11UIResponder", "init"]
 - ["CSo11UIResponder", "myArray"]
+- !private ["CSo11UIResponder", "myLabel"]
 - ["CSo11UIResponder", "numberOfSectionsInTableView"]
 - ["CSo11UIResponder", "tableView"]
+- !private ["CSo11UIResponder", "text"]
 - ["CSo11UIResponder", "viewDidLoad"]
 - !private ["CSo12UIScrollView", "dequeueReusableCellWithIdentifier"]
 - !private ["PSo20UIScrollViewDelegate", "IndicatorInfo"]
@@ -297,8 +366,11 @@ depends-member:
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
 - !private ["CSo11UITableView", "dequeueReusableCellWithIdentifier"]
+- !private ["CSo15UITableViewCell", "deinit"]
+- !private ["CSo15UITableViewCell", "myLabel"]
 - ["CSo21UITableViewController", "IndicatorInfo"]
 - ["CSo21UITableViewController", "Int"]
+- !private ["CSo21UITableViewController", "MyRandomTableViewCell"]
 - ["CSo21UITableViewController", "NSIndexPath"]
 - ["CSo21UITableViewController", "PagerTabStripViewController"]
 - ["CSo21UITableViewController", "UITableView"]
@@ -335,13 +407,18 @@ depends-member:
 - ["PSo18UITraitEnvironment", "indicatorInfoForPagerTabStrip"]
 - ["PSo18UITraitEnvironment", "init"]
 - ["PSo18UITraitEnvironment", "myArray"]
+- !private ["PSo18UITraitEnvironment", "myLabel"]
 - ["PSo18UITraitEnvironment", "numberOfSectionsInTableView"]
 - ["PSo18UITraitEnvironment", "tableView"]
+- !private ["PSo18UITraitEnvironment", "text"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
 - !private ["CSo6UIView", "dequeueReusableCellWithIdentifier"]
+- !private ["CSo6UIView", "myLabel"]
+- !private ["CSo6UIView", "text"]
 - ["CSo16UIViewController", "IndicatorInfo"]
 - ["CSo16UIViewController", "Int"]
+- !private ["CSo16UIViewController", "MyRandomTableViewCell"]
 - ["CSo16UIViewController", "NSIndexPath"]
 - ["CSo16UIViewController", "PagerTabStripViewController"]
 - ["CSo16UIViewController", "UITableView"]
@@ -359,6 +436,7 @@ depends-member:
 - !private ["PSs10_ArrayType", "Index"]
 - !private ["PSs10_ArrayType", "SubSequence"]
 - !private ["PSs10_ArrayType", "count"]
+- !private ["PSs10_ArrayType", "subscript"]
 - !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
 - !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
 - ["PSs24_DestructorSafeContainer", "Element"]
@@ -366,6 +444,7 @@ depends-member:
 - !private ["PSs24_DestructorSafeContainer", "Index"]
 - !private ["PSs24_DestructorSafeContainer", "SubSequence"]
 - !private ["PSs24_DestructorSafeContainer", "count"]
+- !private ["PSs24_DestructorSafeContainer", "subscript"]
 - !private ["PSs14_Incrementable", "Distance"]
 - !private ["PSs14_Incrementable", "IntegerLiteralType"]
 - !private ["PSs22_IntegerArithmeticType", "Distance"]
@@ -379,6 +458,7 @@ depends-member:
 - !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
 - !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
 - !private ["PSs21_ObjectiveCBridgeable", "count"]
+- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
 - !private ["PSs22_RandomAccessAmbiguity", "Distance"]
 - !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
 - !private ["PSs12_Reflectable", "Distance"]
@@ -389,6 +469,9 @@ depends-member:
 - !private ["PSs12_Reflectable", "SubSequence"]
 - !private ["PSs12_Reflectable", "count"]
 - !private ["PSs12_Reflectable", "dequeueReusableCellWithIdentifier"]
+- !private ["PSs12_Reflectable", "myLabel"]
+- !private ["PSs12_Reflectable", "subscript"]
+- !private ["PSs12_Reflectable", "text"]
 - !private ["PSs18_SignedIntegerType", "Distance"]
 - !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
 - !private ["PSs11_Strideable", "Distance"]
@@ -408,8 +491,10 @@ depends-nominal:
 - "PSs9Equatable"
 - !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
 - !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
 - "PSs8Hashable"
 - "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
 - !private "V15XLPagerTabStrip13IndicatorInfo"
 - "P15XLPagerTabStrip21IndicatorInfoProvider"
 - !private "Si"
@@ -420,16 +505,21 @@ depends-nominal:
 - "PSs21MutableCollectionType"
 - "PSs16MutableIndexable"
 - "PSs16MutableSliceable"
+- !private "C19testPagerNavigation21MyRandomTableViewCell"
 - "PSo8NSCoding"
+- !private "PSo9NSCopying"
 - "PSo26NSExtensionRequestHandling"
+- !private "CSo11NSIndexPath"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
 - !private "PSs21RandomAccessIndexType"
 - "PSs30RangeReplaceableCollectionType"
 - "C19testPagerNavigation25SecontTableViewController"
 - "PSs12SequenceType"
 - !private "PSs17SignedIntegerType"
 - !private "PSs16SignedNumberType"
+- !private "VSs5Slice"
 - !private "PSs10Strideable"
 - !private "PSs24StringLiteralConvertible"
 - !private "PSo29UIAccessibilityIdentification"
@@ -439,11 +529,14 @@ depends-nominal:
 - !private "PSo17UICoordinateSpace"
 - !private "PSo13UIDynamicItem"
 - "PSo18UIFocusEnvironment"
+- !private "PSo27UIGestureRecognizerDelegate"
+- !private "CSo7UILabel"
 - "CSo11UIResponder"
 - !private "CSo12UIScrollView"
 - "PSo20UIScrollViewDelegate"
 - "PSo16UIStateRestoring"
 - !private "CSo11UITableView"
+- !private "CSo15UITableViewCell"
 - "CSo21UITableViewController"
 - "PSo21UITableViewDataSource"
 - "PSo19UITableViewDelegate"

@@ -140,6 +140,12 @@
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zwM-OZ-aPu">
+                                            <rect key="frame" x="8" y="11" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="WKC-nz-61I" firstAttribute="leading" secondItem="Thb-sr-FdM" secondAttribute="leadingMargin" id="GDZ-ah-mFa"/>
@@ -147,6 +153,9 @@
                                         <constraint firstAttribute="bottomMargin" secondItem="WKC-nz-61I" secondAttribute="bottom" constant="3.5" id="x9l-n7-Yhq"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="myLabel" destination="zwM-OZ-aPu" id="CDp-E1-3kv"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
